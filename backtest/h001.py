@@ -1,7 +1,7 @@
-"""H-001: 15-minute opening range breakout. Rules are in
-hypotheses/H-001-opening-range-breakout.md and must not change here.
+"""H-001: 15-minute opening range breakout. Rules are in hypothesis.md
+and must not change here.
 
-Usage: python backtests/H-001-opening-range/h001.py in_sample
+Usage: python backtest/h001.py in_sample
 """
 
 import sys
@@ -11,8 +11,7 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
-sys.path.insert(0, str(Path(__file__).resolve().parents[2]))
-from nqlab import data  # noqa: E402
+from nqlab import data
 
 RANGE_START, RANGE_END = time(9, 30), time(9, 45)
 SIGNAL_END = time(12, 0)

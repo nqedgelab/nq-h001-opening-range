@@ -2,7 +2,7 @@
 
 **Verdict: rejected at step 1 (in sample).** Validation and holdout data were not used, so they stay unseen for future hypotheses.
 
-Run on 2026-10-28 with `python backtests/H-001-opening-range/h001.py in_sample`. The rules are exactly those committed in [`H-001`](../../hypotheses/H-001-opening-range-breakout.md) before this run, and the rule logic is unit-tested in `test_h001.py`.
+Run on 2026-10-28 with `python backtest/h001.py in_sample`. The rules are exactly those committed in [`hypothesis.md`](hypothesis.md) before this run, and the rule logic is unit-tested in [`backtest/test_h001.py`](backtest/test_h001.py).
 
 ## In sample, 2015–2021, after costs
 

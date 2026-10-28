@@ -53,4 +53,4 @@ A result that depends on a handful of days is fragile even if it passes. The tes
 ## Result
 **Rejected at step 1** (tested 2026-10-28). In sample, after costs: 1,775 trades, 39.2% win rate, expectancy **−0.014R** (95% CI −0.078R to +0.051R), and +0.024R before costs. Validation and holdout were not used.
 
-Full results: [`backtests/H-001-opening-range/results.md`](../backtests/H-001-opening-range/results.md).
+Full results: [`results.md`](results.md).
